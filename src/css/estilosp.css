@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans';
+}
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.titulo{
+    /*Color de las letras de los Sub-titulos */
+    color:#3b732a;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+/* Header */
+header{
+    width: 100%;
+    height: 600px;
+    /*de esta pagina se saca los gradientes para el fondo: https://uigradients.com/#Shifter */
+    background: #283c86;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(156, 95%, 50%, 0.614), hsl(227, 45%, 52%,0.664)), url(../imag/49428942-masculino-constructor-de-los-trabajadores-industriales-en-la-instalación-de-la-ventana-en-la.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsl(156, 95%, 50%,0.671), hsl(227, 45%, 52%, 0.664)),  url(../imag/49428942-masculino-constructor-de-los-trabajadores-industriales-en-la-instalación-de-la-ventana-en-la.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+header .textos-header{
+/*Centra los textos*/
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+/*un texto debajo del otro en la portada*/
+    flex-direction: column;
+    text-align: center;
+}
+.textos-header h1{
+    font-size: 50px;
+    color:#fff
+}
+/*Vuelve el texto del centro d la portada mas grande y de color blanco*/
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color:#fff
+}
+/*Baja la ola azul*/
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.logo{
+    position: absolute;
+    top: 86%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+}
+/*About As*/
+/*reparte el espacio equitativamente- pone alado d la imagen los item 1 y 2*/
+main .sobre-nosotros{
+    padding: 30px 0px 60px 0px;
+    }
+/*Espacio entre porq elegirnos y la foto*/
+.titulos h2{
+    color:#3b732a;
+    margin-bottom: 15px;
+}
+.contenedor-sobre-nosotros{
+    display: flex;
+    justify-content: space-evenly;
+}
+.imagen-about-us{
+    margin-bottom: 5px;
+    width: 38%;
+}
+/*.sobre-nosotros .contenido-textos{
+    width: 48%;
+}*/
+.sobre-contenido-textos{
+    width: 48%;
+}
+/*Espacio en el pto. 1 y el texto q sigue y el espacio entre el pto.2 y el texto q sigue*/
+.contenido-textos h3{
+    margin-bottom: 15px;
+}
+.contenido-textos h3 span{
+    background: #46866e;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+}
+/* Espacio ente los parrafos 1 y 2, tambien justificacion del texto*/
+.contenido-textos p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+/* Colores de aluminio */
+.color{
+    background: #f2f2f2;
+    padding-bottom: 30px;
+}
+.color-alum{
+    display: flex;
+    justify-content: space-between;
+    /*align-items: center;*/
+    flex-wrap: wrap;
+}
+.aluminio{
+    /*width: 28%;*/
+    width: 28%;
+    text-align: center;
+}
+.aluminio img{
+    width: 50%;
+}
+.aluminio h3{
+    margin: 10px 0;
+}
+.aluminio p{
+    font-weight: 300;
+    text-align: justify;
+}
+/* footer */
+footer{
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+.contenedor-footer{
+    text-align: center;
+}
+.contenedor-footer h4{
+    color: #fff;
+    border-bottom: 3px solid #138068;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.contenedor-footer p{
+    color: #ccc;
+}
+.Titulo-Final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
+
+/*900*/
+@media screen and (max-width:900px){
+    header{
+        background-position: center;
+    }
+    .contenedor-sobre-nosotros{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .logo{
+    position: relative;
+    transform: unset;
+    left: 0;
+    top:0;
+    width: 100%;
+    text-align: center;
+    padding-top: 10%;
+    }
+    .logo img{
+        position: absolute;
+        bottom: 30%;
+        height: 250%;
+        right: 10%;
+    }
+    .sobre-nosotros .contendido-textos{
+        width: 90%;
+    }
+    /*.contenedor-sobre-nosotros .contenido-textos{
+        width: 90%;
+    }*/
+    .imagen-about-us{
+    /*width: 90%;*/
+    width: 90%;
+    }
+    /* Galeria */
+    .imagen-port{
+        width: 44%;
+    }
+/*Testimonios* pone las 5 estrellas.*/
+.contenedor-clientes > img{
+    /*width: 70%;
+    height: 70%;
+    margin: 20px 150px;*/
+    margin: 60px 50px;   
+}
+    /* Clientes */
+    .cards{
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cards.card{
+         /*width: 90%;*/
+        width:10%;
+    }
+    .cards .card:first-child{
+        margin-bottom: 30px;
+    }
+    /* Servicios*/
+    .servicio-cont{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .servicio-ind{
+        width: 100%;
+        text-align: center;
+    }
+    .servicio-ind:nth-child(1), .servicio-ind:nth-child(2){
+        margin-bottom: 60px;
+    } 
+    .servicio-ind img{
+        width: 90%;
+    }
+}
+@media screen and (max-width:900px){
+    /* Color de aluminio */
+        .color{
+            flex-direction: column;
+        }
+        .aluminio{
+            width: 90%;
+            padding: 7% 5%;
+        }
+}
+/*500*/
+@media screen and (max-width:500px){
+    nav{
+        text-align: center;
+        padding: 30px 0 0 0;
+    }
+    nav > a{
+        margin-right: 5px;
+    }
+    .textos-header h1{
+        font-size: 35px;
+    }
+    .textos-header h2{
+        font-size: 20px;
+    }
+    /* ABOUT US */
+    .imagen-about-us{
+        margin-bottom: 60px;
+        width: 99%;
+    }
+    .sobre-nosotros .contenido-textos{
+        width: 95%;
+    }
+    /* Galeria */
+    .imagen-port{
+        width: 95%;
+    }
+    /* Clients */
+    .cards .card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+    }
+    .cards .card img{
+        height: 90px;
+    }
+    .cards .card .hover-galeriac img{
+        height: 25%;
+        width: 10%;
+    }
+
+    /* footer */
+    .contenedor-footer{
+        flex-direction: column;
+        border: none;
+    }
+    .content-foo{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .content-foo h4{
+        border: none;
+    }
+    .content-foo p{
+        color: #ccc;
+        border-bottom: 1px solid #f2f2f2;
+        padding-bottom: 20px;
+    }
+    .Titulo-Final{
+        font-size: 20px;
+    }
+}
