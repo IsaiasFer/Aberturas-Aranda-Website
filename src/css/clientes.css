@@ -1,0 +1,39 @@
+/* Nuestras Empresas */
+.empresas {
+  background: #f2f2f2;
+  padding-bottom: 30px;
+}
+.nos-prefieren {
+  display: flex;
+  justify-content: space-between;
+  /*align-items: center;*/
+  flex-wrap: wrap;
+}
+.empresas-ind {
+  /*width: 28%;*/
+  width: 28%;
+  text-align: center;
+  margin: 10px;
+}
+.empresas-ind img {
+  width: 50%;
+  height: 30%;
+}
+.empresas-ind h3 {
+  margin: 10px 0;
+}
+.empresas-ind p {
+  font-weight: 300;
+  text-align: justify;
+}
+
+@media screen and (max-width: 900px) {
+  /* Empesas que confian */
+  .nos-prefieren {
+    flex-direction: column;
+  }
+  .empresas-ind {
+    width: 90%;
+    padding: 7% 5%;
+  }
+}

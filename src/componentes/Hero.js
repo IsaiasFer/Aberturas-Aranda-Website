@@ -1,11 +1,10 @@
 import React from "react";
 
-function Hero() {
+function Hero(props) {
   return (
     <section className="textos-header">
       <h1>
-        El compromiso con nuestros clientes, se forja en cada detalle con la
-        transparencia de nuestros productos.
+        {props.texto}
       </h1>
     </section>
   );

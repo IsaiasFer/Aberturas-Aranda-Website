@@ -2,6 +2,7 @@ import React from "react";
 import Contacto from "./Contacto";
 import Mapa from "./Mapa";
 import RedSocial from "./RedSocial";
+import "../css/footer.css"
 
 function Footer() {
   return (

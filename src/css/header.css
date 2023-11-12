@@ -1,0 +1,85 @@
+/* Header */
+header{
+    width: 100%;
+    height: 600px;
+    /*de esta pagina se saca los gradientes para el fondo: https://uigradients.com/#Shifter */
+    background: #283c86;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(156, 95%, 50%, 0.614), hsl(227, 45%, 52%,0.664)), url(../imag/49428942-masculino-constructor-de-los-trabajadores-industriales-en-la-instalación-de-la-ventana-en-la.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsl(156, 95%, 50%,0.671), hsl(227, 45%, 52%, 0.664)),  url(../imag/49428942-masculino-constructor-de-los-trabajadores-industriales-en-la-instalación-de-la-ventana-en-la.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+/*Hace que las zolapas se vallan para la derecha*/
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+/*Le da un mejor formato y estilo a las zolapas*/
+nav > a{
+    color: #0f4642;
+    font-weight: 600;
+    text-decoration: none;
+    margin-right: 10px;
+}
+/*Cuando pasa el mouse x una d las zolapas se maraca con subrayado*/
+nav > a:hover{
+    text-decoration: underline;
+}
+header .textos-header{
+/*Centra los textos*/
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+/*un texto debajo del otro en la portada*/
+    flex-direction: column;
+    text-align: center;
+}
+.textos-header h1{
+    font-size: 50px;
+    color: #fff;
+}
+/*Vuelve el texto del centro d la portada mas grande y de color blanco*/
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color:#fff
+}
+/*Baja la ola azul*/
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.logo{
+    position: absolute;
+    top: 85%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width:900px){
+  header {
+    background-position: center;
+  }
+}
+
+@media screen and (max-width:500px){
+    nav{
+        text-align: center;
+        padding: 30px 0 0 0;
+    }
+    nav > a{
+        margin-right: 5px;
+    }
+    .textos-header h1{
+        font-size: 35px;
+    }
+    .textos-header h2{
+        font-size: 20px;
+    }
+}

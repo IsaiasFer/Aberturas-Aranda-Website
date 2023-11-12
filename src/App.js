@@ -1,20 +1,17 @@
-import logo from "./platzi.webp";
-import "./App.css";
-import ToDoCounter from "./ToDoCounter";
-import EquipoDeTrabajo from "./EquipoDeTrabajo";
-import Header from "./Header";
-import CincoEstrellas from "./CincoEstrellas";
-import Opiniones from "./Opiniones";
-import Footer from "./Footer";
-import Portafolio from "./Portafolio";
-import ClientesDestacados from "./ClientesDestacados";
-import './css/estilos.css'
+import EquipoDeTrabajo from "./componentes/EquipoDeTrabajo";
+import Header from "./componentes/Header";
+import CincoEstrellas from "./componentes/CincoEstrellas";
+import Opiniones from "./componentes/Opiniones";
+import Footer from "./componentes/Footer";
+import Portafolio from "./componentes/Portafolio";
+import ClientesDestacados from "./componentes/ClientesDestacados";
 
 
 function App() {
   return (
-    <div className="App">
-      <Header />
+    <>
+      <Header texto="El compromiso con nuestros clientes, se forja en cada detalle con la
+        transparencia de nuestros productos."/>
       <main>
         <EquipoDeTrabajo />
         <Portafolio />
@@ -27,18 +24,7 @@ function App() {
         <ClientesDestacados />
       </main>
       <Footer />
-    </div>
+    </>
   );
 }
-
-function ToDoItem() {
-  return (
-    <li>
-      <span>V</span>
-      <p>Conquistar Salta Capital</p>
-      <span>X</span>
-    </li>
-  );
-}
-
 export default App;
