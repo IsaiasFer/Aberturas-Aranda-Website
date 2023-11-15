@@ -17,10 +17,10 @@ function contacto() {
             <p>
               Para que nos pongamos en contacto, por favor llena el siguiente
               formulario y alguien de nuestro equipo de trabajo se comunicará,
-              tan pronto como nos sea posible.
+              tan pronto como nos sea posible.E
             </p>
             <div id="contact-form">
-              <div class="form-row form-error" style="display:none;"></div>
+              <div class="form-row form-error" style={{display:"none"}}></div>
               <div class="form-row">
                 <input
                   placeholder="Nombre y Apellido"

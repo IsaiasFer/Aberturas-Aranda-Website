@@ -1,13 +1,14 @@
 import React from "react";
+import {Link} from 'react-router-dom'
 
 function BarraNavegacion() {
   return (
     <nav>
-      <a href="#">Inicio</a>
-      <a href="acercaDe.html">Acerca de</a>
-      <a href="portafolio.html">Portafolio</a>
-      <a href="servicios.html">Servicios</a>
-      <a href="contacto.html">Contacto</a>
+      <Link to="/">Inicio</Link>
+      <Link to="/nosotros">Acerca de</Link>
+      <Link to="/portafolio">Portafolio</Link>
+      <Link to="/servicios">Servicios</Link>
+      <Link to="/contacto">Contacto</Link>
     </nav>
   );
 }

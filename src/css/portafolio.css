@@ -37,8 +37,8 @@
   background: hsla(173, 91%, 27%, 0.62);
   transition: transform 0.5s;
   display: flex;
-  justify-content: end;
-  align-items: end;
+  justify-content: flex-end;
+  align-items: flex-end;
   flex-direction: column;
 }
 .hover-galeria img {

@@ -1,30 +1,26 @@
-import EquipoDeTrabajo from "./componentes/EquipoDeTrabajo";
-import Header from "./componentes/Header";
-import CincoEstrellas from "./componentes/CincoEstrellas";
-import Opiniones from "./componentes/Opiniones";
+import { /* Router, */ HashRouter, Routes, Route } from "react-router-dom";
+import Home from "./paginas/home";
+import Contacto from "./paginas/contacto";
+import AcercaDe from "./paginas/acercaDe";
+import Servicios from "./paginas/servicios";
+import Portafolio from "./paginas/portafolio";
 import Footer from "./componentes/Footer";
-import Portafolio from "./componentes/Portafolio";
-import ClientesDestacados from "./componentes/ClientesDestacados";
-
 
 function App() {
   return (
-    <>
-      <Header texto="El compromiso con nuestros clientes, se forja en cada detalle con la
-        transparencia de nuestros productos."/>
+    <HashRouter>
       <main>
-        <EquipoDeTrabajo />
-        <Portafolio />
-        <section className="clientes">
-          <div className="contenedor-clientes">
-            <CincoEstrellas />
-            <Opiniones />
-          </div>
-        </section>
-        <ClientesDestacados />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/nosotros" element={<AcercaDe />} />
+          <Route path="/contacto" element={<Contacto />} />
+          <Route path="/portafolio" element={<Portafolio />} />
+          <Route path="/servicios" element={<Servicios />} />
+          <Route path="*" element={<p>Not Found</p>} />
+        </Routes>
       </main>
       <Footer />
-    </>
+    </HashRouter>
   );
 }
 export default App;
