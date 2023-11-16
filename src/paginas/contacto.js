@@ -1,17 +1,18 @@
 import React from "react";
 import Header from "../componentes/Header";
 import Footer from "../componentes/Footer";
+import '../css/estilosc.css'
 
 function contacto() {
   return (
     <>
     <Header texto="La Claridad y Transparencia de Nuestros Cristales Reflejan la Confianza que Brindamos."/>
       <main>
-        <section class="contenedor sobre-nosotros">
+        <section class="contenedorc sobre-nosotros">
           <div class="contact-img">
-            <img src="imag/escribirmail.png" alt="" />
+            <img src="https://aberturasaranda.com.ar/imag/escribirmail.png" alt="" />
           </div>
-          <div class="contact">
+          <div class="contacto">
             <h1>CONTACTO</h1>
             <h3>SI QUIERES MAS INFORMACIÓN O UN PRESUPUESTO.</h3>
             <p>

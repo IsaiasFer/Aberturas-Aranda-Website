@@ -6,7 +6,7 @@ main .sobre-nosotros {
 /*Espacio entre porq elegirnos y la foto*/
 .titulos h2 {
   color: #3b732a;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 .contenedor-sobre-nosotros {
   display: flex;
@@ -15,10 +15,11 @@ main .sobre-nosotros {
 .imagen-about-us {
   margin-bottom: 5px;
   width: 38%;
+  border-radius: 10px;
 }
-/*.sobre-nosotros .contenido-textos{
+.sobre-nosotros .contenido-textos{
       width: 48%;
-  }*/
+  }
 .sobre-contenido-textos {
   width: 48%;
 }

@@ -1,11 +1,11 @@
 import React from "react";
 
-function RedSocial() {
+function RedSocial(props) {
   return (
     <div className="footer">
-      <h4>Facebook</h4>
-      <a href=" https://www.facebook.com/aberturasdealuminiodantearanda/">
-        <img src="imag/facebook-s-f.png" alt="" />
+      <h4>{props.nombre}</h4>
+      <a href={props.url}>
+        <img src={props.imagen} alt={`Aberturas Aranda en ${props.nombre}`} />
       </a>
     </div>
   );

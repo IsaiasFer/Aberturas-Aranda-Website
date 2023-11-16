@@ -26,9 +26,9 @@ header{
     height: 600px;
     /*de esta pagina se saca los gradientes para el fondo: https://uigradients.com/#Shifter */
     background: #283c86;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(156, 95%, 50%, 0.614), hsl(227, 45%, 52%,0.664)), url(../imag/49428942-masculino-constructor-de-los-trabajadores-industriales-en-la-instalación-de-la-ventana-en-la.jpg);
+    background: -webkit-linear-gradient(to right, hsla(156, 95%, 50%, 0.614), hsl(227, 45%, 52%,0.664)), url(https://aberturasaranda.com.ar//imag/49428942-masculino-constructor-de-los-trabajadores-industriales-en-la-instalación-de-la-ventana-en-la.jpg);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsl(156, 95%, 50%,0.671), hsl(227, 45%, 52%, 0.664)),  url(../imag/49428942-masculino-constructor-de-los-trabajadores-industriales-en-la-instalación-de-la-ventana-en-la.jpg);
+    background: linear-gradient(to right, hsl(156, 95%, 50%,0.671), hsl(227, 45%, 52%, 0.664)),  url(https://aberturasaranda.com.ar//imag/49428942-masculino-constructor-de-los-trabajadores-industriales-en-la-instalación-de-la-ventana-en-la.jpg);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;

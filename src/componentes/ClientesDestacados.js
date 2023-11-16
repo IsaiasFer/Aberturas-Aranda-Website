@@ -21,34 +21,34 @@ function ClientesDestacados() {
           <div className="nos-prefieren">
             <Empresa
               nombre="Biblioteca Provincial de Salta."
-              imagen="imag/biblioteca.png"
+              imagen="https://aberturasaranda.com.ar/imag/biblioteca.png"
               descripcion="La Coordinación de Bibliotecas y Archivos trabaja en la
                 inclusión de personas con capacidades diferentes, niños, autores
                 salteños, entre otros."
             />
             <Empresa
               nombre="Cámara de la Minería de Salta."
-              imagen="imag/camara2.png"
+              imagen="https://aberturasaranda.com.ar/imag/camara2.png"
               descripcion="Coordina con Empresas Nacionales y Extranjeras, actividades de
                 exploración y/o producción minera en la provincia."
             />
             <Empresa
               nombre="Centro de Convenciones."
-              imagen="imag/centro.png"
+              imagen="https://aberturasaranda.com.ar/imag/centro.png"
               descripcion="Brinda servicio de organizacines de congresos, ferias,
                 exposiciones, eventos deportivos, viajes corporativos y de
                 incentivo."
             />
             <Empresa
               nombre="Proveedor de Equipos Agrícolas."
-              imagen="imag/amarela.png"
+              imagen="https://aberturasaranda.com.ar/imag/amarela.png"
               descripcion="Representa a Importantes Marcas en el Noroeste Argentino,
                 brindando los mejores equipos para el transporte y trabajos
                 pesados."
             />
             <Empresa
               nombre="Usina Cultural de Salta."
-              imagen="imag/usina.png"
+              imagen="https://aberturasaranda.com.ar/imag/usina.png"
               descripcion="Es un moderno edificio que generará energía a través de la
                 cultura. Su ubicación estratégica en España y Juramento, le
                 permite constituirse en un espacio convocante de día y de noche,
@@ -56,7 +56,7 @@ function ClientesDestacados() {
             />
             <Empresa
               nombre="Instituto Médico de Alta Complejidad."
-              imagen="imag/imac.png"
+              imagen="https://aberturasaranda.com.ar/imag/imac.png"
               descripcion="Es uno de los sanatorios más importantes de la ciudad de Salta
                 apoyado en médicos de prestigio, junto con la mejor tecnología,
                 respetando todas las normas de Bioseguridad, lo que garantiza la
@@ -64,7 +64,7 @@ function ClientesDestacados() {
             />
             <Empresa
               nombre="Casa de la Cultura."
-              imagen="imag/casa.jpg"
+              imagen="https://aberturasaranda.com.ar/imag/casa.jpg"
               descripcion="Dispone sus salas para promover y facilitar las actividades
                 vinculadas a las distintas expresiones culturales en un marco de
                 respeto a la diversidad, para fomentar el conocimiento de los
@@ -73,14 +73,14 @@ function ClientesDestacados() {
             />
             <Empresa
               nombre="Museo de Arte Contemporáneo."
-              imagen="imag/contemporaneo.png"
+              imagen="https://aberturasaranda.com.ar/imag/contemporaneo.png"
               descripcion="Difunde, investiga y exhibe la producción relacionada a las
                 artes contemporánea, observando las alternativas de exposición,
                 difusión e investigación."
             />
             <Empresa
               nombre="Museo de Arqueología de Alta Montaña."
-              imagen="imag/maam1.jpg"
+              imagen="https://aberturasaranda.com.ar/imag/maam1.jpg"
               descripcion="De acuerdo a Trip Advisor el MAAM se encuentra número uno entre
                 todos los museos de Argentina para visitar."
             />
