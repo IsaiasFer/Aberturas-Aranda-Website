@@ -37,6 +37,13 @@
     padding: 1em;
     margin: 1em;
 }
+.botonDeEnviar{
+    cursor: pointer;
+    transition: .3s;
+}
+.botonDeEnviar:active{
+    height: 1em;
+}
 
 #contact-form button{
     padding: .5em;
