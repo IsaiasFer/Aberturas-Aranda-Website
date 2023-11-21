@@ -1,10 +1,9 @@
 import React, { useRef } from "react";
 import Header from "../componentes/Header";
-import Footer from "../componentes/Footer";
-import "../css/estilosc.css";
+import "../css/contacto.css";
 import emailjs from "@emailjs/browser";
 
-function sendMessages() {
+function sendMessages(){
   (function () {
     emailjs.init("Th7oyzCvGVZDsHHXE");
   })();
@@ -30,6 +29,7 @@ function Contacto() {
 
   const sendEmail = (e) => {
     e.preventDefault();
+    sendMessages()
 
     emailjs
       .sendForm(
@@ -40,7 +40,7 @@ function Contacto() {
       )
       .then(
         (result) => {
-          console.log("Hola que onda");
+          console.log("Correo enviado");
         },
         (error) => {
           console.log("Hubo un error");
