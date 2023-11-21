@@ -18,7 +18,7 @@ function sendMessages(){
   };
   emailjs
     .send(serviceID, templateID, params)
-    .then((res) => {
+    .then(() => {
       alert("Gracias " + params["sendername"] + " tu mensaje ha sido enviado");
     })
     .catch();
