@@ -2,7 +2,7 @@ import React from "react";
 
 function Ventana(props) {
   return (
-    <div class="aluminio">
+    <div className="aluminio">
       <img src={props.imagen} alt={`Foto de ${props.nombre}`} />
       <h3>{props.nombre}</h3>
       <p>

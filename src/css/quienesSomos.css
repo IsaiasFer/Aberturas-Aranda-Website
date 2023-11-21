@@ -11,6 +11,7 @@ main .sobre-nosotros {
 .contenedor-sobre-nosotros {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
 }
 .imagen-about-us {
   margin-bottom: 5px;
@@ -18,7 +19,7 @@ main .sobre-nosotros {
   border-radius: 10px;
 }
 .sobre-nosotros .contenido-textos{
-      width: 48%;
+    width: 48%;
   }
 .sobre-contenido-textos {
   width: 48%;
@@ -46,7 +47,14 @@ main .sobre-nosotros {
   text-align: justify;
 }
 
-@media screen and(max-width:900px) {
+@media screen and (max-width:900px) {
+  .sobre-nosotros .contenido-textos {
+    width: 95%;
+  }
+
+  .titulos h2{
+    font-size: 1.3em;
+  }
   .contenedor-sobre-nosotros {
     flex-direction: column;
     justify-content: center;
@@ -66,8 +74,5 @@ main .sobre-nosotros {
   .imagen-about-us {
     margin-bottom: 60px;
     width: 99%;
-  }
-  .sobre-nosotros .contenido-textos {
-    width: 95%;
   }
 }

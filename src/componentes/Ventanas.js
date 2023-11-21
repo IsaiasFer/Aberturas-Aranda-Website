@@ -3,10 +3,10 @@ import Ventana from "./Ventana";
 
 function Ventanas() {
   return (
-    <section class="Color">
-      <div class="contenedor">
-        <h2 class="titulo">Color de Aluminio.</h2>
-        <div class="color-alum">
+    <section className="Color">
+      <div className="contenedor">
+        <h2 className="titulo">Color de Aluminio.</h2>
+        <div className="color-alum">
           <Ventana
             imagen="https://aberturasaranda.com.ar/imag/natural.png"
             nombre="Aluminio Natural."

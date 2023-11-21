@@ -1,12 +1,11 @@
 import React from "react";
 
-function Contacto() {
+function Contacto(props) {
   return (
     <div className="footer">
-      <h4>Teléfono.</h4>
-      <p>3876 72-3090.</p>
+      <h4>{props.nombre}</h4>
+      <p>{props.valor}</p>
     </div>
   );
 }
-
 export default Contacto;

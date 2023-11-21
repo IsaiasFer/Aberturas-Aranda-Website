@@ -42,6 +42,7 @@ header .textos-header{
 .textos-header h1{
     font-size: 50px;
     color: #fff;
+    padding: 1em;
 }
 /*Vuelve el texto del centro d la portada mas grande y de color blanco*/
 .textos-header h2{

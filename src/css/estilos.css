@@ -22,6 +22,11 @@ body {
   margin-bottom: 60px;
 }
 
+.contenedor-clientes h2{
+  margin-bottom: 2em;
+  color: #3b732a;
+}
+
 /*900*/
 @media screen and (max-width: 900px) {
   .logo {

@@ -7,12 +7,12 @@ function acercaDe() {
     <>
       <Header texto="Somos una Empresa Salteña de Gran Trayectoria, con Más de 15 Años en el Mercado." />
       <main>
-        <section class="logo">
+        <section className="logo">
           <img src="https://aberturasaranda.com.ar/imag/LOGO-sin-fondo.png" alt="" />
         </section>
-        <section class="contenedor sobre-nosotros">
-          <div class="titulos">
-            <h2 class="Titulo">
+        <section className="contenedor sobre-nosotros">
+          <div className="titulos">
+            <h2 className="Titulo">
               Somos una empresa con un firme compromiso en la inovación
               permanente, ofrecemos excelente calidad y precio en nuestros
               productos, variedad y personalizacion, entrega e instalacion
@@ -21,9 +21,9 @@ function acercaDe() {
               nuestros productos, lo que nos permite estar a la altura de un
               mercado cada vez mas exigente.
             </h2>
-            <div class="contenedor-sobre-nosotros">
-              <img src="https://aberturasaranda.com.ar/imag/equip.jpeg" alt="" class="imagen-about-us" />
-              <div class="contenido-textos">
+            <div className="contenedor-sobre-nosotros">
+              <img src="https://aberturasaranda.com.ar/imag/equip.jpeg" alt="" className="imagen-about-us" />
+              <div className="contenido-textos">
                 <h3>
                   <span> 1</span> MISION.
                 </h3>

@@ -65,7 +65,7 @@ function Contacto() {
             <p>
               Para que nos pongamos en contacto, por favor llena el siguiente
               formulario y alguien de nuestro equipo de trabajo se comunicará,
-              tan pronto como nos sea posible.E
+              tan pronto como nos sea posible.
             </p>
             <form ref={form} id="contact-form" onSubmit={sendEmail}>
               <div
@@ -115,7 +115,6 @@ function Contacto() {
           </div>
         </section>
       </main>
-      <Footer />
     </>
   );
 }

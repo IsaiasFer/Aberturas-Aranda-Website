@@ -1,16 +1,15 @@
 import React from "react";
 import Servicio from "../componentes/Empresa";
 import Header from "../componentes/Header";
-import Footer from "../componentes/Footer";
 
 function servicios() {
   return (
     <>
       <Header texto="Somos una Empresa Salteña de Gran Trayectoria, con Más de 15 Años en el Mercado." />
-      <section class="empresas">
-        <div class="contenedor">
-          <h2 class="titulo">Servicios que Brindamos.</h2>
-          <div class="nos-prefieren">
+      <section className="empresas">
+        <div className="contenedor">
+          <h2 className="titulo">Servicios que Brindamos.</h2>
+          <div className="nos-prefieren">
             <Servicio
               imagen="https://aberturasaranda.com.ar/imag/pstto.jpg"
               nombre="Medición, Presupuestos y Diseños sin Cargo."
@@ -69,7 +68,6 @@ function servicios() {
           </div>
         </div>
       </section>
-      <Footer />
     </>
   );
 }

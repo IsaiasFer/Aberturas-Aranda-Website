@@ -51,10 +51,45 @@
   transform: scale(0);
 }
 
+/* Colores de aluminio */
+.color {
+  background: #f2f2f2;
+  padding-bottom: 30px;
+}
+.color-alum {
+  display: flex;
+  justify-content: space-between;
+  /*align-items: center;*/
+  flex-wrap: wrap;
+}
+.aluminio {
+  /*width: 28%;*/
+  width: 28%;
+  text-align: center;
+}
+.aluminio img {
+  width: 50%;
+}
+.aluminio h3 {
+  margin: 10px 0;
+}
+.aluminio p {
+  font-weight: 300;
+  text-align: justify;
+}
+
 @media screen and (max-width: 900px) {
   /* Galeria */
   .imagen-port {
     width: 44%;
+  }
+  /* Color de aluminio */
+  .color {
+    flex-direction: column;
+  }
+  .aluminio {
+    width: 90%;
+    padding: 7% 5%;
   }
 }
 
