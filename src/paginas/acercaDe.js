@@ -47,7 +47,6 @@ function acercaDe() {
           </div>
         </section>
       </main>
-      <Footer />
     </>
   );
 }

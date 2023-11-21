@@ -12,7 +12,6 @@ function portafolio() {
         <Portafolio />
         <Ventanas />
       </main>
-      <Footer />
     </>
   );
 }
