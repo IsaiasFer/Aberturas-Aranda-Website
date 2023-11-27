@@ -101,17 +101,22 @@
 
 @media screen and (max-width: 500px) {
   /* Clients */
+  .cards{
+    padding: 0 3.5em 2em
+  }
   .cards .card {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 70%;
-  }
-  .cards .card img {
-    height: 90px;
+    width: 95%;
   }
   .cards .card .hover-galeriac img {
     height: 25%;
     width: 10%;
+  }
+}
+@media screen and (max-width:320px){
+  .cards{
+    padding: 0 .5em .5em;
   }
 }
