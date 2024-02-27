@@ -3,7 +3,7 @@ import Header from "../componentes/Header";
 import "../css/contacto.css";
 import emailjs from "@emailjs/browser";
 
-function sendMessages(){
+function sendMessages() {
   (function () {
     emailjs.init("Th7oyzCvGVZDsHHXE");
   })();
@@ -29,7 +29,7 @@ function Contacto() {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    sendMessages()
+    sendMessages();
 
     emailjs
       .sendForm(
@@ -55,7 +55,7 @@ function Contacto() {
         <section className="contenedorc sobre-nosotros">
           <div className="contact-img">
             <img
-              src="https://aberturasaranda.com.ar/imag/escribirmail.png"
+              src="http://aluminioargentino.online/imag/escribirmail.png"
               alt=""
             />
           </div>
@@ -110,7 +110,7 @@ function Contacto() {
                   required
                 />
               </div>
-              <input className="botonDeEnviar" type="submit" value="send"/>
+              <input className="botonDeEnviar" type="submit" value="send" />
             </form>
           </div>
         </section>

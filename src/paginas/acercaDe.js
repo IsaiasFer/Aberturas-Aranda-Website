@@ -7,7 +7,7 @@ function acercaDe() {
       <Header texto="Somos una Empresa Salteña de Gran Trayectoria, con Más de 15 Años en el Mercado." />
       <main>
         <section className="logo">
-          <img src="https://aberturasaranda.com.ar/imag/LOGO-sin-fondo.png" alt="" />
+          <img src="http://aluminioargentino.online/imag/LOGO-sin-fondo.png" alt="" />
         </section>
         <section className="contenedor sobre-nosotros">
           <div className="titulos">
@@ -21,7 +21,7 @@ function acercaDe() {
               mercado cada vez mas exigente.
             </h2>
             <div className="contenedor-sobre-nosotros">
-              <img src="https://aberturasaranda.com.ar/imag/equip.jpeg" alt="" className="imagen-about-us" />
+              <img src="http://aluminioargentino.online/imag/equip.jpeg" alt="" className="imagen-about-us" />
               <div className="contenido-textos">
                 <h3>
                   <span> 1</span> MISION.

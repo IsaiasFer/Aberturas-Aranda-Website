@@ -5,13 +5,13 @@ function EquipoDeTrabajo() {
   return (
     <>
         <section className="logo">
-            <img src="https://aberturasaranda.com.ar/imag/LOGO-sin-fondo.png" alt=""/>
+            <img src="http://aluminioargentino.online/imag/LOGO-sin-fondo.png" alt=""/>
         </section>
         <section className="contenedor sobre-nosotros">
             <div className="titulos">
                 <h2 className="Titulo">¿Por qué elegirnos?.....Nuestro Equipo de Trabajo.</h2>
                 <div className="contenedor-sobre-nosotros">
-                    <img src="https://aberturasaranda.com.ar/imag/trabajadores.jpeg" alt="" className="imagen-about-us"/>
+                    <img src="http://aluminioargentino.online/imag/trabajadores.jpeg" alt="" className="imagen-about-us"/>
                     <div className="contenido-textos">
                         <h3><span> 1</span> Mano de Obra Calificada y Comprometida.</h3>
                         <p>Nuestro equipo de técnico es altamente calificado, está especializado en realizar trabajos

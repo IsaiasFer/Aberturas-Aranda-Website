@@ -20,37 +20,37 @@ function Footer() {
           <RedSocial
             nombre="Facebook"
             url="https://www.facebook.com/aberturasdealuminiodantearanda/"
-            imagen="http://aberturasaranda.com.ar/imag/facebook-s-f.png"
+            imagen="http://aluminioargentino.online/imag/facebook-s-f.png"
           />
           <RedSocial
             nombre="Instagram"
             url="https://www.instagram.com/aberturas_aranda/"
-            imagen="http://aberturasaranda.com.ar/imag/instagram-s-f.png"
+            imagen="http://aluminioargentino.online/imag/instagram-s-f.png"
           />
           <RedSocial
             nombre="TikTok"
             url="https://www.tiktok.com/@aberturasaranda"
-            imagen="http://aberturasaranda.com.ar/imag/tiktok-s-f.png"
+            imagen="http://aluminioargentino.online/imag/tiktok-s-f.png"
           />
           <RedSocial
             nombre="Youtube"
             url="https://www.youtube.com/@aberturasaranda"
-            imagen="http://aberturasaranda.com.ar/imag/youtube-s-f.png"
+            imagen="http://aluminioargentino.online/imag/youtube-s-f.png"
           />
           <RedSocial
             nombre="Twitter"
-            url="http://aberturasaranda.com.ar/Twitter.com/AberturasAranda"
-            imagen="http://aberturasaranda.com.ar/imag/twitter-s-f.png"
+            url="http://aluminioargentino.online/Twitter.com/AberturasAranda"
+            imagen="http://aluminioargentino.online/imag/twitter-s-f.png"
           />
           <RedSocial
             nombre="Linkedin"
             url="https://www.linkedin.com/in/aberturas-aranda-/"
-            imagen="http://aberturasaranda.com.ar/imag/linkedin-s-f.png"
+            imagen="http://aluminioargentino.online/imag/linkedin-s-f.png"
           />
           <RedSocial
             nombre="WhatsApp"
             url="https://wa.me/5493875161937?text=Hola%20que%20tal%20me%20gustar%C3%ADa%20contactarme%20con%20Aberturas%20Aranda%20:%20"
-            imagen="http://aberturasaranda.com.ar/imag/WhatsApp-s-f.png"
+            imagen="http://aluminioargentino.online/imag/WhatsApp-s-f.png"
           />
         </div>
       </div>

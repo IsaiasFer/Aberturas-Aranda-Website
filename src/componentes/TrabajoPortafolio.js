@@ -5,7 +5,7 @@ function TrabajoPortafolio(props) {
     <div className="imagen-port">
       <img src={props.imagen} alt="" />
       <div className="hover-galeria">
-        <img src="https://aberturasaranda.com.ar/imag/logo2-sin-fondo.png" alt="" />
+        <img src="http://aluminioargentino.online/imag/logo2-sin-fondo.png" alt="" />
         <p>{props.titulo}</p>
       </div>
     </div>
